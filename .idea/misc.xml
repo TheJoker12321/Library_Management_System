@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Black">
+<<<<<<< HEAD
     <option name="sdkName" value="Python 3.14 (OOP inheritance)" />
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.14" project-jdk-type="Python SDK" />
+=======
+    <option name="sdkName" value="Python 3.14 (Library_Management_System)" />
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.14 (Library_Management_System)" project-jdk-type="Python SDK" />
+>>>>>>> e6a9e96c33fb45d94b77a8f2c38ce7ae707b0196
 </project>
