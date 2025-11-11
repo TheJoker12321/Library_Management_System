@@ -1,5 +1,5 @@
-from classes.books.book import Book
-from classes.users.user import User
+from classes.book import Book
+from classes.user import User
 
 from classes.csv_file import CsvFromJson
 
