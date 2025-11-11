@@ -1,5 +1,9 @@
 from classes.books.book import Book
 from classes.users.user import User
+
+from classes.csv_file import CsvFromJson
+
+
 class Library:
     max_day_for_lend = 14
     def __init__(self):
@@ -35,4 +39,8 @@ class Library:
             raise
         user.return_book(book)
         book.isavailable = True
+
+    @staticmethod
+    def json_to_csv(json_file, csv_file):
+        return CsvFromJson.create_csv(json_file, csv_file)
 
